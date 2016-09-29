@@ -42,17 +42,20 @@ def test():
 
 def stress_test_dijkstra():
     G = {}
-    N = 2000
-    M = 0
+    N = 10000
+    M = 50000
     import random
     for i in range(N):
         G[i] = {}
-    for i in range(N):
-        for j in range(i):
-            weight = random.randint(1,1000)
-            G[i][j] = weight
-            G[j][i] = weight
-            M += 1
+    for _ in range(M):
+        i = random.randint(0, N-1)
+        j = i
+        while j == i:
+            j = random.randint(0, N-1)
+        w = random.randint(1, 200)
+        G[i][j] = w
+        G[j][i] = w
+
     import time
     t1 = time.time()
     dist, pred = dijkstra(G, 0)
