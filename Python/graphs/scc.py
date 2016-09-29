@@ -1,3 +1,4 @@
+__author__ = "matthewdippel"
 def dfs(G):
     pre = {}
     num = 0
