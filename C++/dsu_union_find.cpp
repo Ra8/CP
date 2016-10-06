@@ -3,8 +3,7 @@
 // Code adapted from bmerry
 
 using namespace std;
-int SIZE=1000;
-
+#define SIZE 1000
 int par[SIZE];
 
 int root(int v){
@@ -12,7 +11,7 @@ int root(int v){
 }
 
 void merge(int x, int y) {	//	x and y are vertices
-	if((x = root(x)) == (y = root(y))
+	if((x = root(x)) == (y = root(y)))
 		return ;
 	if(par[y] < par[x])	// balancing the height of the tree
 		swap(x, y);
@@ -22,6 +21,6 @@ void merge(int x, int y) {	//	x and y are vertices
 
 int main(int argc, char const *argv[]){
 	memset(par,-1,sizeof(par));
-	
+
 	return 0;
 }
