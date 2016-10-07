@@ -34,3 +34,10 @@ def definite_integral(p, a, b):
     q = integral(p)
     return evaluate(q, b) - evaluate(q, a)
 
+def tests():
+    p = [1, 1, 1, 1]
+    assert derivative(p) == [1, 2, 3]
+    assert integral(p) == [0, 1, 1.0 / float(2), 1.0 / float(3), 1.0 / float(4)]
+
+if __name__ == "__main__":
+    tests()
