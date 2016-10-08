@@ -1,3 +1,5 @@
+// Greatest common divisor of two integers
+
 #include <bits/stdc++.h>
 
 using namespace std;

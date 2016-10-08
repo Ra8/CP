@@ -1,3 +1,5 @@
+// Prim's algorithm for minimum spanning tree
+
 #include <bits/stdc++.h>
 
 using namespace std;

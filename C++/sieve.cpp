@@ -1,3 +1,5 @@
+// Sieve method to determine primality of all numbers <= maxN
+
 #include <bits/stdc++.h>
 
 using namespace std;

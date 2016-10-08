@@ -1,3 +1,4 @@
+// Check if a number is prime by checking all relative candidates less than it
 #include <bits/stdc++.h>
 
 using namespace std;

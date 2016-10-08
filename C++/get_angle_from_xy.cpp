@@ -1,3 +1,5 @@
+// Compute the angle in degrees between a 2d vector and the x axis
+
 #include <bits/stdc++.h>
 
 using namespace std;
