@@ -8,6 +8,8 @@ int m; // number of edges
 vector<pair<int, long long> > adj[SIZE];
 //adj[u][i] = {vertex, weight}
 
+////////////////////////////////////////////////////////////
+//DSU Union Find code: check dsu_union_find.cpp
 int par[SIZE];
 
 int root(int v){
@@ -22,6 +24,7 @@ void merge(int x, int y) {	//	x and y are vertices
 	par[x] += par[y];
 	par[y] = x;
 }
+////////////////////////////////////////////////////////////
 
 class Edge{
 public:
