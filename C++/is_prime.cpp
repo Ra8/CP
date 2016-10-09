@@ -21,6 +21,6 @@ bool isPrime2(long long n){
 }
 
 int main(int argc, char const *argv[]){
-    
+
 	return 0;
 }
