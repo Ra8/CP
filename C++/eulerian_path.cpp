@@ -12,9 +12,12 @@ int inE[SIZE];
 int color[SIZE];
 vector<int> eulerPath;
 
+// returns the starting node of the
+// euler path, or -1 if no euler path exists
 int checkEulerPath(){
-	// returns the starting node of the
-	// euler path, or -1 if no euler path exists
+	//init out and in degrees
+	memset(outE,0,sizeof(outE));
+	memset(inE,0,sizeof(inE));
 	int limit=2;
 	int startingPoint=-1;
 	for(int i=0;i<SIZE;i++){
