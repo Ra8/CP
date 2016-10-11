@@ -1,3 +1,6 @@
+// topological sort using DFS end time.
+// also computes start and end time of DFS travel
+
 #include <bits/stdc++.h>
 
 using namespace std;

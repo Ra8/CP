@@ -1,3 +1,5 @@
+// the Z algorithm, computes the string matching in O(n)
+
 #include <bits/stdc++.h>
 
 using namespace std;
