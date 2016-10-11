@@ -1,3 +1,5 @@
+// Addition and multiplication of integers represented as strings
+
 #include <iostream>
 #include <algorithm>
 

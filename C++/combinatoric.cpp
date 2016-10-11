@@ -1,3 +1,5 @@
+// Calculate binomial coefficients modulo a large base
+
 #include <bits/stdc++.h>
 
 using namespace std;

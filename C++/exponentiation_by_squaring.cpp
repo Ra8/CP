@@ -1,7 +1,10 @@
+// Fast exponentiation by repeated squaring
+// computes (x^y)%modulo in O(log(y)) time
+
 #include <bits/stdc++.h>
 
 using namespace std;
-// computes (x^y)%modulo in O(log(y)) time
+
 long long powMod(long long x, long long y, long long modulo){
 	long long result=1;
 	long long multiplier=x;

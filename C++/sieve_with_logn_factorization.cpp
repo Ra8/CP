@@ -1,3 +1,5 @@
+// Sieve method, maps integers to smallest prime that divides them
+// Used for efficient factorization
 #include <bits/stdc++.h>
 
 using namespace std;

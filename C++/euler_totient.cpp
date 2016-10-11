@@ -1,3 +1,5 @@
+// Euler's totient function, compute how many numbers less than n are relatively prime to n
+
 #include <bits/stdc++.h>
 
 using namespace std;

@@ -1,3 +1,4 @@
+// Check if a number is prime by checking all relative candidates less than it
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -20,6 +21,6 @@ bool isPrime2(long long n){
 }
 
 int main(int argc, char const *argv[]){
-    
+
 	return 0;
 }

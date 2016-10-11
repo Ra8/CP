@@ -1,6 +1,9 @@
+// Union find data structure for disjoint set union operations
+// Code adapted from bmerry
+
 #include <bits/stdc++.h>
 
-// Code adapted from bmerry
+
 
 using namespace std;
 #define SIZE 1000

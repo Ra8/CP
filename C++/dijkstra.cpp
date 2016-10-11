@@ -1,3 +1,5 @@
+// Dijkstra's algorithm for single source shortest paths with non negative weights
+
 #include <bits/stdc++.h>
 
 using namespace std;
